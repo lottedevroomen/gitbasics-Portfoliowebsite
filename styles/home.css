@@ -1,10 +1,10 @@
 body {
-	background-image: url(../images/bannerheel.jpg);
+	background-image: url(../images/bannermobiel.jpg);
 	background-attachment: fixed;
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: -170px 0px;
+	background-position: top;
 }
 
 .intro {
@@ -24,10 +24,32 @@ body {
 	display: block;
 }
 
+.flex-container {
+		display: flex;
+		margin-top: 50px;
+		
+	}
+
+.flex-item {
+	flex: 1;
+	font-size: 70px;
+	text-align: center;
+	text-decoration: bold;
+	text-shadow: 1px 4px 10px black;
+}
+	
+.UX {
+	color: white;
+}
+
 @media screen and (min-width: 700px){
 	#pijl {
 		width: 15%;
 		margin-top: 800px;
+	}
+	
+	body{
+		background-position: top;
 	}
 	
 }
@@ -41,6 +63,7 @@ body {
 	
 	body {
 		background-position: 0px 0px;
+		background-image: url(../images/bannerlaptop.jpg);
 	}
 
 }

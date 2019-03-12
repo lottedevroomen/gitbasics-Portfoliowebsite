@@ -1,11 +1,28 @@
-.grid-item {
+
+.flex-item {
+	text-align: center;
+}
+
+.tekst {
 	background-color: #EAEAEA;
 	padding: 5%;
 	box-shadow: 1px 4px 10px black;
 }
 
-.flex-item {
-	text-align: center;
+.mySlides, .Slides{
+	width: 100%;
+}
+
+.slider {
+	padding: 0;
+}
+
+.achtergronddesign {
+	background-image: url(../images/achtergronddesign.jpg);
+	background-attachment: fixed;
+	min-height: 200px;
+	background-size: auto;
+	background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 700px){
