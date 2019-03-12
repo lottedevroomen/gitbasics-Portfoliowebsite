@@ -1,0 +1,1 @@
+TweenMax.to(".intro", 2, {scaleY: 1,  delay:2}); 

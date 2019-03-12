@@ -1,0 +1,82 @@
+body {
+	font-family: Bahnschrift, Arial;
+	margin: 0px;
+	font-weight: lighter;
+	background-color: #2C4251;
+}
+
+p {
+	line-height: 30px;
+	font-size: 18px;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: lighter;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+
+
+/* header ------------------------------*/
+.header {
+	text-align: center;
+	background-color: white;
+	padding: 1%;
+	position: fixed;
+	width: 100%;
+	margin-bottom: 5%;
+	text-transform: uppercase;
+	box-shadow: 1px 4px 10px black;
+	display: flex;
+}
+
+.header-item {
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px transparent solid;
+	border-top: 2px transparent solid;
+	padding: 0.5%;
+	opacity: 1;
+	flex: 1;
+}
+
+.header-item:hover {
+	border-bottom: 2px #3F7A93 solid;
+	border-top: 2px #3F7A93 solid;
+	color: #3F7A93;
+}
+
+.actief {
+	text-decoration: bold;
+	color: #3F7A93;
+	font-weight: bold;
+}
+
+main {
+	padding-top: 10%; 
+}
+
+@media screen and (min-width: 700px){
+	main{
+		padding-top: 9%; 
+	}
+	
+	
+@media screen and (min-width: 1200px) {
+	main{
+		padding-top: 7%; 
+	}
+	
+}
+
+@media screen and (min-width: 1900px){
+	main{
+		padding-top: 6%; 
+	}
+
+}
+
+

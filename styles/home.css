@@ -1,0 +1,50 @@
+body {
+	background-image: url(../images/bannerheel.jpg);
+	background-attachment: fixed;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -170px 0px;
+}
+
+.intro {
+	background-color: #2C4251;
+	line-height: 35px;
+	color: #EAEAEA;
+	padding: 5%;
+	font-size: 18px;
+}
+
+#pijl {
+	width: 20%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 500px;
+	margin-bottom: 20%;
+	display: block;
+}
+
+@media screen and (min-width: 700px){
+	#pijl {
+		width: 15%;
+		margin-top: 800px;
+	}
+	
+}
+
+@media screen and (min-width: 1200px) {
+	#pijl {
+		width: 5%;
+		margin-top: 350px;
+		margin-bottom: 10%;
+	}
+	
+	body {
+		background-position: 0px 0px;
+	}
+
+}
+
+@media screen and (min-width: 1900px){
+	
+}
