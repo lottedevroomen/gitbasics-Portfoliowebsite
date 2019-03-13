@@ -18,11 +18,12 @@
 }
 
 .achtergronddesign {
-	background-image: url(../images/achtergronddesign.jpg);
+	background-image: url(../images/achtergronddesignmobiel.jpg);
 	background-attachment: fixed;
-	min-height: 200px;
-	background-size: auto;
+	min-height: 400px;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: top; 
 }
 
 @media screen and (min-width: 700px){
@@ -37,8 +38,10 @@
 	
 	
 @media screen and (min-width: 1200px) {
-	
-	
+	.achtergronddesign {
+		background-image: url(../images/achtergronddesignlaptop.jpg);
+		min-height: 500px;
+	}
 }
 
 @media screen and (min-width: 1900px){

@@ -3,6 +3,7 @@ body {
 	margin: 0px;
 	font-weight: lighter;
 	background-color: #2C4251;
+	
 }
 
 p {
@@ -20,13 +21,14 @@ h2 {
 .header {
 	text-align: center;
 	background-color: white;
-	padding: 2%;
 	position: fixed;
 	width: 100%;
 	margin-bottom: 5%;
 	text-transform: uppercase;
 	box-shadow: 1px 4px 10px black;
 	display: flex;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 .header-item {
@@ -64,6 +66,11 @@ main {
 @media screen and (min-width: 1200px) {
 	main{
 		padding-top: 7%; 
+	}
+	
+	.header {
+		padding-top: 1%;
+		padding-bottom: 1%;
 	}
 	
 }

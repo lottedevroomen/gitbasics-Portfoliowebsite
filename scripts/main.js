@@ -11,11 +11,10 @@ function carouseleen() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carouseleen, 3000); 
+  setTimeout(carouseleen, 2000); 
 }
 
 
-var myIndex = 0;
 carouseltwee();
 
 function carouseltwee() {
@@ -27,5 +26,5 @@ function carouseltwee() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carouseltwee, 3000); 
+  setTimeout(carouseltwee, 2000); 
 }
