@@ -1,8 +1,8 @@
 
 var myIndex = 0;
-carouseleen();
+carousel();
 
-function carouseleen() {
+function carousel() {
   var i;
   var x = document.getElementsByClassName("mySlides");
   for (i = 0; i < x.length; i++) {
@@ -11,20 +11,6 @@ function carouseleen() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carouseleen, 2000); 
+  setTimeout(carousel, 2000); 
 }
 
-
-carouseltwee();
-
-function carouseltwee() {
-  var i;
-  var x = document.getElementsByClassName("Slides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carouseltwee, 2000); 
-}
