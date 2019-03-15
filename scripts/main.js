@@ -14,3 +14,6 @@ function carousel() {
   setTimeout(carousel, 2000); 
 }
 
+//TweenMax.staggerFrom(".grid-item", 2, {opacity: 0, rotation:5}, 0.5);
+
+//TweenMax.from(".tekstbox", 2, {opacity: 0, rotation:5}, 0.5);

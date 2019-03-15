@@ -2,7 +2,7 @@ body {
 	font-family: Bahnschrift, Arial;
 	margin: 0px;
 	font-weight: lighter;
-	background-color: #2C4251;
+	background-color: #222E50;
 	
 }
 
@@ -15,7 +15,7 @@ h2 {
 	text-align: center;
 	text-decoration: lighter;
 	text-transform: uppercase;
-	color: white;
+	color: #CC7C78;
 }
 
 .header {
@@ -70,8 +70,7 @@ main {
 	.header {
 		padding-top: 1%;
 		padding-bottom: 1%;
-	}
-	
+	}	
 }
 
 @media screen and (min-width: 1900px){
