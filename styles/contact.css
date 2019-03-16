@@ -1,43 +1,71 @@
-body {
-	background-image: url(../images/achtergrondmobiel.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
-}
-
-.tekstbox {
-	background-color: #EAEAEA;
-	width: 80%;
+main {
 	margin-left: auto;
-    margin-right: auto;
-	padding: 5%;
-	box-shadow: 1px 4px 10px black;
+	margin-right: auto;
+	display: block;
+	width: 90%;
 }
 
+.grid-item {
+	border: 2px solid #BAD1CD;
+	margin-top: 20px ;
+	margin-bottom: 20px;
+	padding: 10px;
+	display: flex;
+}
+
+.icon{
+	flex:1; 
+}
+
+.tekst {
+	flex: 1;
+}
 
 @media screen and (min-width: 700px){
-	.textbox {
-		width: 65%;
+	.grid-item {
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }
 
-@media screen and (min-width: 1200px) {
-	.textbox {
-		width: 55%;
-		padding: 3%;
+@media screen and (min-width: 1200px) {	
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.grid-item {
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 	
-	body {
-		background-image: url(../images/achtergrondlaptop.jpg);
-		background-position: center;
+	.email {
+		grid-column-start: 1;
+	}
+	
+	.telefoon {
+		grid-column-start: 2;
+	}
+	
+	.adress {
+		grid-column-start: 3;
+	}
+	
+	.hoofdtekst {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 60%;
+	}
+	
+	.grid-container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%;
 	}
 }
 
 @media screen and (min-width: 1900px){
-	.textbox {
-		width: 50%;
-		padding: 2%;
-	}
+
 }
 

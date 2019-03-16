@@ -8,9 +8,9 @@ body {
 }
 
 .intro {
-	background-color: black;
+	background-color: #8A7090;
 	line-height: 35px;
-	color: #EAEAEA;
+	color: white;
 	padding: 5%;
 	font-size: 18px;
 }

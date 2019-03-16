@@ -2,8 +2,7 @@ body {
 	font-family: Bahnschrift, Arial;
 	margin: 0px;
 	font-weight: lighter;
-	background-color: #222E50;
-	
+
 }
 
 p {
@@ -13,9 +12,16 @@ p {
 
 h2 {
 	text-align: center;
-	text-decoration: lighter;
 	text-transform: uppercase;
-	color: #CC7C78;
+	color: #6F9296;
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #1F2232;
 }
 
 .header {
@@ -25,7 +31,7 @@ h2 {
 	width: 100%;
 	margin-bottom: 5%;
 	text-transform: uppercase;
-	box-shadow: 1px 4px 10px black;
+	box-shadow: 0px -6px 15px black;
 	display: flex;
 	padding-top: 3%;
 	padding-bottom: 3%;
@@ -42,13 +48,13 @@ h2 {
 }
 
 .header-item:hover {
-	border-bottom: 2px #3F7A93 solid;
-	border-top: 2px #3F7A93 solid;
-	color: #3F7A93;
+	border-bottom: 2px #1F2232 solid;
+	border-top: 2px #1F2232 solid;
+	color: #1F2232;
 }
 
 .actief {
-	color: #3F7A93;
+	color: #1F2232;
 	font-weight: bold;
 }
 
@@ -65,6 +71,10 @@ main {
 @media screen and (min-width: 1200px) {
 	main{
 		padding-top: 7%; 
+	}
+	
+	p {
+	font-size: 17px;
 	}
 	
 	.header {
