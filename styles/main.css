@@ -67,6 +67,10 @@ main {
 		padding-top: 9%; 
 	}
 	
+	header {
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
 	
 @media screen and (min-width: 1200px) {
 	main{
@@ -74,13 +78,13 @@ main {
 	}
 	
 	p {
-	font-size: 17px;
+		font-size: 17px;
 	}
 	
-	.header {
+	header {
 		padding-top: 1%;
 		padding-bottom: 1%;
-	}	
+	}
 }
 
 @media screen and (min-width: 1900px){
