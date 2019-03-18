@@ -1,8 +1,7 @@
 body {
 	font-family: Bahnschrift, Arial;
-	margin: 0px;
+	margin: 0;
 	font-weight: lighter;
-
 }
 
 p {
@@ -23,10 +22,11 @@ h3 {
 	font-variant: small-caps;
 }
 
-.header {
+header {
+	position: fixed;
+	top: 0;
 	text-align: center;
 	background-color: white;
-	position: fixed;
 	width: 100%;
 	margin-bottom: 5%;
 	text-transform: uppercase;
@@ -34,6 +34,7 @@ h3 {
 	display: flex;
 	padding-top: 3%;
 	padding-bottom: 3%;
+	z-index: 1;
 }
 
 .header-item {

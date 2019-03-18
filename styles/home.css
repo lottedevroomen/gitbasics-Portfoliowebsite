@@ -34,11 +34,6 @@ body {
 }
 
 @media screen and (min-width: 700px){
-	#pijl {
-		width: 15%;
-		margin-top: 770px;
-	}
-	
 	body{
 		background-image: url(../images/bannertablet.png);
 		background-position: top;
