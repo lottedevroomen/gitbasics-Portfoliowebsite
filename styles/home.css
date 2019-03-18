@@ -1,5 +1,4 @@
 body {
-	background-color: red;
 	background-image: url(../images/bannermobiel.png);
 	background-attachment: fixed;
 	background-size: cover;
@@ -44,8 +43,6 @@ body {
 @media screen and (min-width: 1200px) {
 	#pijl {
 		width: 5%;
-		margin-top: 400px;
-		margin-bottom: 10%;
 	}
 	
 	body {
