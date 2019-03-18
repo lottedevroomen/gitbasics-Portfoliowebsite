@@ -1,4 +1,8 @@
 body {
+
+}
+
+.parralax{
 	background-image: url(../images/bannermobiel.png);
 	background-attachment: fixed;
 	height: 100%;
