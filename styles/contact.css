@@ -17,8 +17,20 @@ main {
 	flex:1; 
 }
 
+img {
+	width: 40%;
+	margin: auto;
+	display: block;
+}
+
 .tekst {
 	flex: 1;
+}
+
+b {
+	font-size: 25px;
+	font-weight: lighter;
+	font-variant: small-caps;
 }
 
 @media screen and (min-width: 700px){

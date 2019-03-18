@@ -20,8 +20,7 @@ h2 {
 h3 {
 	font-size: 25px;
 	font-weight: lighter;
-	text-transform: uppercase;
-	color: #1F2232;
+	font-variant: small-caps;
 }
 
 .header {
