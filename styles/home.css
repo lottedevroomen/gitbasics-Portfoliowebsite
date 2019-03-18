@@ -1,14 +1,18 @@
 body {
-
-}
-
-.parralax{
+	background-color: red;
 	background-image: url(../images/bannermobiel.png);
 	background-attachment: fixed;
-	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: -20px 0px;
+	height: 100vh; 
+	width: 100%;
+}
+
+.parralax{
+	position: relative;
+	height: 100vh;
+	width: 100%;
 }
 
 .intro {
@@ -20,12 +24,13 @@ body {
 }
 
 #pijl {
+	position: absolute;
 	width: 20%;
-	margin-left: auto;
-    margin-right: auto;
-	margin-top: 500px;
-	margin-bottom: 20%;
-	display: block;
+	height: auto;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
 }
 
 @media screen and (min-width: 700px){
