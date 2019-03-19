@@ -12,7 +12,7 @@
 }
 
 .slider {
-	background-color: #F4F9F9;
+	background-color: #F5f5f5;
 }
 
 .pijl {
@@ -20,14 +20,19 @@
 }
 
 .ikals {
-	background-color: #F2E8F2;
+	background-color: #F5f5f5;
+	border-top: 4px solid #F2E8F2;
+	border-bottom: 4px solid #F2E8F2;
 }
 
 .hobby{
-	background-color: #F4F9F9;
+	background-color: #F5f5f5;
 }
 
-
+.flexcontainer {
+	border-top: 4px solid #F2E8F2;
+	border-bottom: 4px solid #F2E8F2;
+}
 
 @media screen and (min-width: 700px){
 	.flex-container {
@@ -44,28 +49,26 @@
 	}
 }
 	
-	
 @media screen and (min-width: 1200px) {
 
-.flexcontainer {
-	display: flex;
-}
+	.flexcontainer {
+		display: flex;
+	}
 
-.slider {
-	flex: 1;
-	padding: 8% 1% 9% 15%;
-}
+	.slider {
+		flex: 1;
+		padding: 8% 1% 9% 15%;
+	}
 
-
-.tekst {
+	.tekst {
 		padding-left: 15%;
 		padding-right: 15%;
 	}
-	
-.hobby {
-	flex:1;
-	padding-left: 2%;
-}
+		
+	.hobby {
+		flex:1;
+		padding-left: 2%;
+	}
 }
 
 

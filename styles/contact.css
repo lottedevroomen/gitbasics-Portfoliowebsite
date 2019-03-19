@@ -6,7 +6,8 @@ main {
 }
 
 .grid-item {
-	border: 2px solid #F2E8F2;
+	border: 2px solid #E8E8E8;
+	box-shadow: 1px 4px 10px black;
 	margin-top: 20px ;
 	margin-bottom: 20px;
 	padding: 10px;

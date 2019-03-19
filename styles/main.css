@@ -7,6 +7,7 @@ body {
 p {
 	line-height: 30px;
 	font-size: 18px;
+	color: #343633;
 }
 
 h2 {
@@ -41,7 +42,7 @@ header {
 
 .header-item {
 	text-decoration: none;
-	color: black;
+	color: #343633;
 	border-bottom: 2px transparent solid;
 	border-top: 2px transparent solid;
 	padding: 0.5%;
@@ -50,13 +51,13 @@ header {
 }
 
 .header-item:hover {
-	border-bottom: 2px #1F2232 solid;
-	border-top: 2px #1F2232 solid;
-	color: #1F2232;
+	border-bottom: 2px #343633 solid;
+	border-top: 2px #343633 solid;
+	color: #343633;
 }
 
 .actief {
-	color: #1F2232;
+	color: #343633;
 	font-weight: bold;
 }
 
