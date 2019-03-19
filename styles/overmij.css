@@ -9,16 +9,10 @@
 
 .mySlides{
 	width: 100%;
-	height:100%;
 }
 
-.achtergronddesign {
-	background-image: url(../images/achtergronddesignmobiel.jpg);
-	background-attachment: fixed;
-	min-height: 400px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top; 
+.slider {
+	background-color: #F4F9F9;
 }
 
 .pijl {
@@ -26,12 +20,14 @@
 }
 
 .ikals {
-	background-color: #F4F9F9;
+	background-color: #F2E8F2;
 }
 
 .hobby{
 	background-color: #F4F9F9;
 }
+
+
 
 @media screen and (min-width: 700px){
 	.flex-container {
@@ -41,69 +37,35 @@
 	.flex-item {
 		flex: 1;
 	}
+	
+	.tekst {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
 }
 	
 	
 @media screen and (min-width: 1200px) {
-	.achtergronddesign {
-		display: none;
-	}
-	
-	.grid-container {
-		display: grid;
-		grid-template-columns: 3fr 2fr 3fr;
-	}
-	
-	.grid-item {
-		margin: 5px;
-	}
-	
-	.kop {
-		grid-column-start: 1;
-		grid-row-start: 1;
-		grid-column-end: 4;
-	}
-	
-	.ikals {
-		grid-column-start: 1;
-		grid-row-start: 2;
-		grid-row-end: 4;
-		border-bottom: 2px solid #EAEFEF;
-		border-right: 2px solid #EAEFEF;
-		background-color: white;
-	}
-	
-	.doel {
-		grid-column-start: 2;
-		grid-row-start: 2;
-		grid-column-end: 4;
-		border-bottom: 2px solid #EAEFEF;
-		border-left: 2px solid #EAEFEF;
-	}
-	
-	.slider {
-		grid-column-start: 2;
-		grid-row-start: 3;
-		grid-column-end: 4;
-		border-bottom: 2px solid #EAEFEF;
-		border-left: 2px solid #EAEFEF;
-		border-top: 2px solid #EAEFEF;
-	}
 
-	.kenmerken {
-		grid-column-start: 1;
-		grid-row-start: 4;
-		grid-column-end: 3;
-		border-top: 2px solid #EAEFEF;
-		border-right: 2px solid #EAEFEF;
+.flexcontainer {
+	display: flex;
+}
+
+.slider {
+	flex: 1;
+	padding: 8% 1% 9% 15%;
+}
+
+
+.tekst {
+		padding-left: 15%;
+		padding-right: 15%;
 	}
 	
-	.hobby{
-		grid-column-start: 3;
-		grid-row-start: 4;
-		border-top: 2px solid #EAEFEF;
-		border-left: 2px solid #EAEFEF;
-		background-color: white;
+.hobby {
+	flex:1;
+	padding-left: 2%;
+}
 }
 
 

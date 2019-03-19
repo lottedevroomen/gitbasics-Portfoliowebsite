@@ -6,7 +6,7 @@ main {
 }
 
 .grid-item {
-	border: 2px solid #BAD1CD;
+	border: 2px solid #F2E8F2;
 	margin-top: 20px ;
 	margin-bottom: 20px;
 	padding: 10px;
@@ -19,8 +19,6 @@ main {
 
 img {
 	width: 40%;
-	margin: auto;
-	display: block;
 }
 
 .tekst {
