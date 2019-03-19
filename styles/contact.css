@@ -15,6 +15,7 @@ main {
 
 .icon{
 	flex:1; 
+	padding-top: 5%;
 }
 
 img {
@@ -32,10 +33,25 @@ b {
 }
 
 @media screen and (min-width: 700px){
+	.grid-container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+	
 	.grid-item {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
+	
+	.icon{
+		padding-top: 3%;
+	}
+	
+	img {
+		width: 30%;
+	}
+
 }
 
 @media screen and (min-width: 1200px) {	
@@ -72,6 +88,14 @@ b {
 		margin-left: auto;
 		margin-right: auto;
 		width: 95%;
+	}
+	
+	img {
+		width: 50%;
+	}
+	
+	.icon{
+		padding-top: 10%;
 	}
 }
 
