@@ -28,7 +28,7 @@ img {
 b {
 	font-size: 25px;
 	font-weight: lighter;
-	font-variant: small-caps;
+	text-transform: uppercase;
 }
 
 @media screen and (min-width: 700px){
