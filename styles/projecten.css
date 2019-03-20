@@ -8,32 +8,36 @@
 }
 	
 .grid-item {
-	background-color: red;
 	min-height: 200px;
+	background-image: url(../images/achtergronddesignlaptop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+
 }
 
 .project1{
-	background-color: red;
+	
 }
 	
 .project2{
-	background-color: blue;
+	
 }
 
 .project3{
-	background-color: red;
+	
 }
 
 .project4{
-	background-color: blue;
+	
 }
 
 .project5{
-	background-color: red;
+	
 }
 
 .project6{
-	background-color: blue;
+	
 }
 
 p {
