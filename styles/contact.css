@@ -28,8 +28,8 @@ img {
 
 b {
 	font-size: 25px;
-	font-weight: lighter;
-	text-transform: uppercase;
+	font-weight: normal;
+	font-variant: small-caps;
 }
 
 @media screen and (min-width: 700px){
@@ -45,7 +45,7 @@ b {
 	}
 	
 	.icon{
-		padding-top: 3%;
+		padding-top: 2.5%;
 	}
 	
 	img {
@@ -73,7 +73,7 @@ b {
 		grid-column-start: 2;
 	}
 	
-	.adress {
+	.link {
 		grid-column-start: 3;
 	}
 	
@@ -95,7 +95,7 @@ b {
 	}
 	
 	.icon{
-		padding-top: 10%;
+		padding-top: 6%;
 	}
 }
 
