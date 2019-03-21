@@ -1,6 +1,10 @@
 
 main {
 	padding-top: 20%; 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 90%;
 }
 
 .kop {
@@ -11,24 +15,35 @@ main {
 	flex:1;
 	background-color: transparent;
 	border: none;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
 }
 
 .buttonimg {
 	width: 40%;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	padding-left: 40%;
 }
 
-.button {
-	float: left;
+button {
+	background-color: #832161;
+	border: none;
+	border-radius:0.12em;
+	font-family: Bahnschrift, Arial;
+	padding: 1%;
+	font-size: 18px;
+}
+
+button :hover {
+	background-color: white;
+	color: #343633;
 }
 
 h2 {
 	color: #343633;
-	flex: 1;
+	flex: 5;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 a {
@@ -39,14 +54,21 @@ a {
 @media screen and (min-width: 700px){
 	
 	main {
-	padding-top: 8%; 
-}
-
+		padding-top: 12%; 
+	}
+	
+	.buttonimg {
+		width: 15%;
+	}
 	
 }
 
 @media screen and (min-width: 1200px) {
 	main {
-	padding-top: 5%; 
-}
+		padding-top: 8%; 
+	}
+	
+	.buttonimg {
+		width: 9%;
+	}
 }
