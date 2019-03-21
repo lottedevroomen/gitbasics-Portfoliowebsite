@@ -22,7 +22,7 @@ h2 {
 h3 {
 	text-align: center;
 	font-size: 25px;
-	font-weight: lighter;
+	font-weight: normal;
 	font-variant: small-caps;
 }
 
@@ -78,6 +78,11 @@ main {
 	body {
 		font-weight: 300;
 	}
+	
+	h3 {
+		font-weight: lighter;
+	}
+}
 	
 @media screen and (min-width: 1200px) {
 	main{

@@ -44,7 +44,8 @@ p {
 	background-color: #F5f5f5;
 	border-top: 4px solid #F2E8F2;
 	border-bottom: 4px solid #F2E8F2;
-	padding: 5%;
+	padding: 20px;
+	margin-top: 0;
 }
 
 h3 {
@@ -100,6 +101,10 @@ a {
 		grid-row-start: 3;
 	}
 
+	p {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
 }
 
 @media screen and (min-width: 1200px) {	
