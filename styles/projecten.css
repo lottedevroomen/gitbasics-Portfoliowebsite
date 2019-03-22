@@ -9,35 +9,48 @@
 	
 .grid-item {
 	min-height: 200px;
+}
+
+.project1{
 	background-image: url(../images/achtergronddesignlaptop.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
-
-}
-
-.project1{
-	
 }
 	
 .project2{
-	
+	background-image: url(../images/achtergronddesignlaptop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 .project3{
-	
+	background-image: url(../images/achtergronddesignlaptop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 .project4{
-	
+	background-image: url(../images/achtergronddesignlaptop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 .project5{
-	
+	background-image: url(../images/achtergronddesignlaptop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 .project6{
-	
+	background-image: url(../images/achtergronddesignlaptop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 
 p {
@@ -113,9 +126,6 @@ a {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		width: 70%;
-	}
-
-	.grid-item {
 	}
 	
 	.project1{
