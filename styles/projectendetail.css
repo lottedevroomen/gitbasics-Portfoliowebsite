@@ -19,10 +19,6 @@ main {
 	padding-left: 40%;
 }
 
-.buttonimg :hover {
-	width: 45%;
-}
-
 button {
 	background-color: #832161;
 	border: none;
@@ -51,6 +47,12 @@ a {
 	color: white;
 }
 
+.link {
+	color: #832161;
+	font-style: bold;
+	
+}
+
 .beschrijving {
 	background-color: #F5f5f5;
 	border-top: 4px solid #F2E8F2;
@@ -70,6 +72,9 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
+	border: 2px solid #E9E9E9;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .ruimteschip1 {
@@ -81,11 +86,27 @@ a {
 }
 
 .ruimteschip3 {
-	background-image: url(../images/ruimteschip3.jpg);
+	background-image: url(../images/ruimteschip3.png);
 }
 
 .kaassite {
 	background-image: url(../images/kaassite.png);
+}
+
+.logomalty{
+	background-image: url(../images/logomalty.png);
+}
+
+.websitemalty{
+	background-image: url(../images/malty1.png);
+}
+
+.visitekaartje{
+	background-image: url(../images/.png);
+}
+
+.fotoblog{
+	background-image: url(../images/.png);
 }
 	
 	
