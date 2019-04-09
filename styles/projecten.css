@@ -1,21 +1,17 @@
 .grid-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	width: 90%;
 }
-	
-.grid-item {
-	min-height: 200px;
-}
 
 .project1{
-	background-image: url(../images/achtergronddesignlaptop.jpg);
+	background-image: url(../images/imperiumwebsite.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
+	min-height: 170px;
+	filter: grayscale(20%);
 }
 	
 .project2{
@@ -23,6 +19,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
+	min-height: 170px;
+	filter: grayscale(20%);
 }
 
 .project3{
@@ -30,13 +28,17 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	min-height: 170px;
+	filter: grayscale(20%);
 }
 
 .project4{
-	background-image: url(../images/achtergronddesignlaptop.jpg);
+	background-image: url(../images/middinposter.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
+	min-height: 170px;
+	filter: grayscale(20%);
 }
 
 .project5{
@@ -44,6 +46,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
+	min-height: 170px;
+	filter: grayscale(20%);
 }
 
 .project6{
@@ -51,6 +55,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
+	min-height: 170px;
+	filter: grayscale(20%);
 }
 
 p {
@@ -63,8 +69,9 @@ p {
 
 h3 {
 	background-color: #f5f5f5;
-	margin-top: 0;
+	margin-top: 20px;
 	padding: 1%;
+	margin-bottom:0;
 }
 
 a {
