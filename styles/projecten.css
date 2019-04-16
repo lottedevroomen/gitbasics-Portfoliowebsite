@@ -6,7 +6,7 @@
 }
 
 .project1{
-	background-image: url(../images/imperiumwebsite.png);
+	background-image: url(../images/logoimperium.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -15,7 +15,7 @@
 }
 	
 .project2{
-	background-image: url(../images/ruimteschip2.jpg);
+	background-image: url(../images/logoresponsive.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -24,7 +24,7 @@
 }
 
 .project3{
-	background-image: url(../images/malty1.png);
+	background-image: url(../images/logomalty.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -33,7 +33,7 @@
 }
 
 .project4{
-	background-image: url(../images/middinposter.jpg);
+	background-image: url(../images/logomiddin.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -42,7 +42,7 @@
 }
 
 .project5{
-	background-image: url(../images/achtergronddesignlaptop.jpg);
+	background-image: url(../images/logofelilo.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -54,7 +54,7 @@
 	background-image: url(../images/achtergronddesignlaptop.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: center;
 	min-height: 170px;
 	filter: grayscale(20%);
 }

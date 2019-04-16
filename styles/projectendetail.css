@@ -114,11 +114,30 @@ a {
 }
 
 .visitekaartje{
-	background-image: url(../images/.png);
+	background-image: url(../images/maltyvisitekaartje.jpeg);
+	background-position: center;
 }
 
 .fotoblog{
-	background-image: url(../images/.png);
+	background-image: url(../images/maltyblog.png);
+	background-position: right;
+}
+
+.feliloposter{
+	background-image: url(../images/feliloposter.png);
+}
+
+.feliloklik{
+	background-image: url(../images/feliloklik.png);
+}
+
+.feliloschermen{
+	background-image: url(../images/feliloschermen.png);
+}
+
+.felilowire{
+	background-image: url(../images/felilowire.png);
+	background-position: bottom;
 }
 	
 	
