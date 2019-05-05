@@ -118,6 +118,20 @@ a {
 	background-position: center;
 }
 
+.middinwire{
+	background-image: url(../images/middinwire.jpg);
+}
+
+.middinlofi{
+	background-image: url(../images/middinlofi.png);
+	background-position: center;
+}
+
+.middinstoryboard{
+	background-image: url(../images/middinstoryboard.png);
+	
+}
+
 .fotoblog{
 	background-image: url(../images/maltyblog.png);
 	background-position: right;
