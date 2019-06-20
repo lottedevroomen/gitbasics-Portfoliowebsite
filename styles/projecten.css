@@ -2,62 +2,9 @@
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	width: 90%;
+	width: 80%;
 }
 
-.project1{
-	background-image: url(../images/logoimperium.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
-	min-height: 170px;
-	filter: grayscale(20%);
-}
-	
-.project2{
-	background-image: url(../images/logoresponsive.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
-	min-height: 170px;
-	filter: grayscale(20%);
-}
-
-.project3{
-	background-image: url(../images/logomalty.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	min-height: 170px;
-	filter: grayscale(20%);
-}
-
-.project4{
-	background-image: url(../images/logomiddin.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
-	min-height: 170px;
-	filter: grayscale(20%);
-}
-
-.project5{
-	background-image: url(../images/logofelilo.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
-	min-height: 170px;
-	filter: grayscale(20%);
-}
-
-.project6{
-	background-image: url(../images/achtergronddesignlaptop.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	min-height: 170px;
-	filter: grayscale(20%);
-}
 
 p {
 	background-color: #F5f5f5;
@@ -68,10 +15,12 @@ p {
 }
 
 h3 {
-	background-color: #f5f5f5;
+	background-color: #832161;
 	margin-top: 20px;
 	padding: 1%;
 	margin-bottom:0;
+	color: white;
+	border-radius: 5px;
 }
 
 a {
@@ -84,7 +33,7 @@ a {
 	.grid-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		width: 80%;
+		width: 70%;
 	}
 	
 	.grid-item {
@@ -132,7 +81,7 @@ a {
 	.grid-container {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		width: 70%;
+		width: 60%;
 	}
 	
 	.project1{
