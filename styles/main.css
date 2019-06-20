@@ -43,16 +43,15 @@ header {
 .header-item {
 	text-decoration: none;
 	color: #343633;
-	border-bottom: 2px transparent solid;
-	border-top: 2px transparent solid;
+	border: 2px transparent solid;
+	border-radius: 5px;
 	padding: 0.5%;
 	opacity: 1;
 	flex: 1;
 }
-
 .header-item:hover {
-	border-bottom: 2px #343633 solid;
-	border-top: 2px #343633 solid;
+	border: 2px #343633 solid;
+	border-radius: 5px;
 	color: #343633;
 }
 
