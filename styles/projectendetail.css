@@ -2,8 +2,11 @@ main {
 	padding-top: 20%;
 }
 
-.kop {
-	display: flex;
+.boven2{
+	display: grid;
+	grid-template-columns: 1fr 2fr 4fr 2fr 1fr;
+	background-color: white;
+	width: 100%;
 }
 
 .button2 {
@@ -22,17 +25,15 @@ main {
 button {
 	background-color: #832161;
 	border: none;
-	border-radius:0.12em;
+	border-radius: 10px;
 	font-family: Bahnschrift, Arial;
 	padding: 1%;
 	font-size: 18px;
-	margin-left: 5%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 15%;
 }
 
-button :hover {
-	background-color: white;
-	color: #343633;
-}
 
 h2 {
 	color: #343633;
@@ -55,13 +56,9 @@ a {
 
 .beschrijving {
 	background-color: #F5f5f5;
-	border-top: 4px solid #F2E8F2;
-	border-bottom: 4px solid #F2E8F2;
 }
 
-.resultaat {
-	border-top: 4px solid #F2E8F2;
-}
+
 
 .tekst {
 	padding: 20px;
@@ -184,7 +181,7 @@ a {
 
 @media screen and (min-width: 1200px) {
 	main {
-		padding-top: 8%; 
+		padding-top: 6%; 
 	}
 	
 	.buttonimg {
@@ -196,10 +193,10 @@ a {
 		padding-right: 15%;
 	}
 	
-	.grid-container {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+	.grid-item {
+		height: 250px;
 	}
+
 	
 	
 }
