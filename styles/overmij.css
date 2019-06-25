@@ -11,21 +11,11 @@
 	width: 100%;
 }
 
-.slider {
-	background-color: #F5f5f5;
-}
-
 .pijl {
 	height: 100px;
 }
 
-.ikals {
-	background-color: #F5f5f5;
-}
 
-.hobby{
-	background-color: #F5f5f5;
-}
 
 
 
@@ -42,6 +32,12 @@
 		padding-left: 70px;
 		padding-right: 70px;
 	}
+	body {
+		height: 100%;
+		background: linear-gradient(270deg, #f5f5f5 90%, #242424 10%);
+	}
+
+
 }
 	
 @media screen and (min-width: 1200px) {
